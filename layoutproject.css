@@ -1,0 +1,116 @@
+body           {background-color:azure;
+               font-family: 'ZCOOL XiaoWei', serif;text-align: center}
+.navbar        {overflow: hidden;
+                background-color: #azure;
+                position: fixed;
+                top: 0; font-weight: bold; font-size: 1.3em;
+                width: 100%;}
+.navbar a      {float: left;
+                display: block;
+                color: black; 
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;}
+.navbar a:hover{background: #ddd;
+                color: #000000; font-weight: bold; font-size: 120%}
+#header        {width: 100%; 
+                height: 200px;
+                background-image: url(banner.jpg);
+                
+                background-repeat: no-repeat;
+                color: #f0f8ff;
+                font-size: 2.5em; 
+                font-weight: bold; 
+                font-family: 'ZCOOL XiaoWei', serif; 
+                margin-bottom: 10px; border: 3px solid black;}
+h4 h1 h2 h3            {color: #006400;font-family: 'ZCOOL XiaoWei', serif;}
+#container     {width: 100%;}
+#first         {width: 48%;
+                height: auto;
+                float: left;
+                
+                vertical-align: top;}
+#first h4      {margin: 0;}
+#second        {width: 48%;
+                height: auto;
+                float: right;
+               }
+#second h4     {margin: 0;}
+#clear         {clear: both;}
+
+#container2    {width: 100%;
+                padding-top: 10px;}
+#first2        {width: 50%;
+                margin-left: 25%;
+                height: auto;
+                border: 3px solid black;}
+#clear2        {clear: both;}
+
+#container3    {width: 100%;
+                padding-top: 10px;}
+#first3        {width: 32%;
+                height: 100%;
+                display: inline-block;
+                background-repeat: no-repeat; 
+                border: 3px solid black;
+                vertical-align: top;}
+#second3       {width: 32%;
+                height: auto;
+                display: inline-block;
+                border: 3px solid black; 
+                background-repeat: no-repeat;
+                vertical-align: top}
+#third3        {width: 32%;
+                height: 100%;
+                display: inline-block;
+                background-repeat: no-repeat; 
+    border: 3px solid black;}
+#clear3        {clear: both;}
+
+#container4    {width: 100%;
+                margin: auto;
+                padding-top: 10px;}
+#first4        {width: 99%;
+                height: auto;
+                border: 3px solid black; 
+                background-repeat: no-repeat;}
+#clear4        {clear: both;}
+
+
+
+.gallery
+{margin:auto; border: 1px solid black;}
+
+.gallery:hover
+{border: 1px solid #777}
+
+.gallery img
+{width: 100%; height: 100%;}
+
+.desc
+{ padding: 10px; text-align: center;}
+
+
+@media only screen and (max-width: 64em) { 
+    #first2        {margin: 0;
+                    width: 99%;}
+    #first3        {width: 31%}
+    #third3        {width: 31%;}
+   
+    .gallery       {width 31%}
+}
+
+@media only screen and (max-width: 37.5em) {
+    #header         {width: 100%;}
+    #first          {width: 99%;
+                     float: none;}
+    #second         {width: 99%;
+                     float: none;}
+    #first3         {width: 99%}
+    #second3        {width: 99%}
+    #third3         {width: 99%}
+    #first5         {width: 99%}
+    #second5        {width: 99%}
+    #third5         {width: 99%}
+    .gallery        {width 99%}
+}
